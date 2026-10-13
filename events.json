@@ -1,0 +1,38 @@
+[
+  {
+    "type": "starred",
+    "repo": "microsoft/vscode",
+    "description": "Visual Studio Code 是一款轻量但功能强大的源代码编辑器。",
+    "language": "TypeScript",
+    "stars": 168000,
+    "starred_at": "2026-10-12",
+    "url": "https://github.com/microsoft/vscode"
+  },
+  {
+    "type": "starred",
+    "repo": "facebook/react",
+    "description": "用于构建 Web 和原生用户界面的库。",
+    "language": "JavaScript",
+    "stars": 239000,
+    "starred_at": "2026-10-08",
+    "url": "https://github.com/facebook/react"
+  },
+  {
+    "type": "starred",
+    "repo": "vercel/next.js",
+    "description": "用于构建全栈 Web 应用的 React 框架。",
+    "language": "JavaScript",
+    "stars": 135000,
+    "starred_at": "2026-10-02",
+    "url": "https://github.com/vercel/next.js"
+  },
+  {
+    "type": "starred",
+    "repo": "sindresorhus/awesome",
+    "description": "汇集优质软件、库和资源的精选列表。",
+    "language": "Markdown",
+    "stars": 380000,
+    "starred_at": "2026-09-26",
+    "url": "https://github.com/sindresorhus/awesome"
+  }
+]
