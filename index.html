@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="utf-8">
-    <title>Stargazers log</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="我收藏的 GitHub 仓库记录。">
+    <title>星标仓库记录</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>Stargazers log</h1>
-    <p>A log of the repositories I've starred.</p>
+    <main class="page-shell">
+      <header class="page-header">
+        <p class="eyebrow">GITHUB / COLLECTION</p>
+        <h1>星标仓库</h1>
+        <p class="intro">值得留存的开源项目，都在这里。</p>
+      </header>
+
+      <section class="repository-section" aria-labelledby="list-heading">
+        <div class="section-heading">
+          <h2 id="list-heading">最近收藏</h2>
+          <span id="repository-count" class="count" aria-live="polite">加载中</span>
+        </div>
+        <p id="status" class="status" role="status">正在读取仓库记录...</p>
+        <ul id="repository-list" class="repository-list"></ul>
+      </section>
+      <footer>由自己的好奇心持续维护</footer>
+    </main>
   </body>
 </html>
